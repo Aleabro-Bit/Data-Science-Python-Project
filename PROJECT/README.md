@@ -1,4 +1,4 @@
-Instructions for using the code
+# Instructions for using the code
 
 This code was created to collect, manipulate, and correlate data about a top 50 actor list from a
 given IMDb dataset (found in the .zip file). It retrieves information about the listed actors, the
@@ -13,23 +13,34 @@ needed in such cases). Specifically, this code gathers the following information
 Required Libraries
 To execute this code correctly, you need the following libraries:
 
-- Pandas:
+- ## Pandas:
 
 	Official installation guide: https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
-	Install command via pip: pip install pandas
+	Install command via pip:
+```
+pip install pandas
+```
 
-- Streamlit:
+
+- ## Streamlit:
 
 	Official installation guide: https://docs.streamlit.io/library/get-started/installation
-	Install command via pip: pip install streamlit
+	Install command via pip:
+```
+pip install streamlit
+```
 
 
-- Matplotlib:
+
+- ## Matplotlib:
 
 	Official installation guide: https://matplotlib.org/stable/users/installing.html
-	Install command via pip: pip install matplotlib
+	Install command via pip:
+```
+pip install matplotlib
+```
 
-Steps to use the program:
+# Steps to use the program:
 1. Prepare the Files
 Ensure that all classes and files are located in the same directory. It is advised to extract the files
 from the .zip archive to avoid issues. While it is possible to run the program directly 
